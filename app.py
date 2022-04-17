@@ -14,16 +14,16 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # loading all the saved necessary pickle files
-with gzip.open("Pickle Files\\df.pkl", 'rb') as f:
+with gzip.open("df.pkl", 'rb') as f:
     p = pickle.Unpickler(f)
     df = p.load()
-with gzip.open("Pickle Files\\rate_df.pkl", 'rb') as f:
+with gzip.open("rate_df.pkl", 'rb') as f:
     p = pickle.Unpickler(f)
     rating_df = p.load()
-with gzip.open("Pickle Files\\cv.pkl", 'rb') as f:
+with gzip.open("cv.pkl", 'rb') as f:
     p = pickle.Unpickler(f)
     cv = p.load()
-with gzip.open("Pickle Files\\clf.pkl", 'rb') as f:
+with gzip.open("clf.pkl", 'rb') as f:
     p = pickle.Unpickler(f)
     classifier = p.load()
 
