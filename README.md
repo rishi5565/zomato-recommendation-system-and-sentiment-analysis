@@ -29,44 +29,44 @@ In this project I'll be exploring the Zomato Bengaluru dataset to extract insigh
 
 
 ## **Exploratory Data Analysis (EDA)**
-* Top 20 Restaurant chains in Bengaluru:![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/1.png)
+* **Top 20 Restaurant chains in Bengaluru:**![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/1.png)
 
-* Availability of Online Order:
+* **Availability of Online Order:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/2.png)
 
-* Availability of Table Booking:![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/3.png)
+* **Availability of Table Booking:**![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/3.png)
 
-* Restaurant ratings distribution:
+* **Restaurant ratings distribution:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/4.png)
 
-* Rating and Approx Cost Relationship scatter plot:
+* **Rating and Approx Cost Relationship scatter plot:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/5.png)
 We see that it is not easy to visually interpret the data as a lot of points are overlapping on top of each other. Hence, we decide to use a kernel density estimate (KDE) plot to better visually interpret the information.
-* KDE Plot:
+* **KDE Plot:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/6.png)
 Here, we can see that majority of the ratings lie between 3.5 to 4.0 and in the cost range of 0 to 1000.
-* Approx Cost Distribution:
+* **Approx Cost Distribution:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/7.png)
 We see that the distribution in right skewed and leptokurtic. This is expected as our cost starts from after the point 0 and there tends to be less and less restaurants with very high costs.
 
-* Top 20 Restaurant types in Bengaluru:
+* **Top 20 Restaurant types in Bengaluru:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/8.png)
 We see that Quick Bites is the most popular restaurant type. This makes sense as Bengaluru is a very busy city of working professionals who don't have much time so they prefer to make use of Quick Bites.
-* Top 20 Most Popular Cuisines:
+* **Top 20 Most Popular Cuisines:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/9.png)
 We see that North Indian is the most popular cuisine. This makes some sense as majority of working professionals in Bengaluru hail from North India.
 
-* Top 20 Locations with most Restaurants in Bengaluru:
+* **Top 20 Locations with most Restaurants in Bengaluru:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/10.png)
 
-* Geospatial Mapping of Restaurant Density around Bengaluru:
+* **Geospatial Mapping of Restaurant Density around Bengaluru:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/11.png)
 We see that South of Bengaluru has a high density of Restaurants. A higher density can also be seen at the Central area of the city.
 
-* Word Cloud of dishes liked by customers for top 9 restaurant types:
+* **Word Cloud of dishes liked by customers for top 9 restaurant types:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/12.png)
 
-* Word Cloud of customer reviews for top 9 restaurant chains:
+* **Word Cloud of customer reviews for top 9 restaurant chains:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/13.png)
 
 
@@ -97,5 +97,3 @@ Data Source: [Link](https://www.kaggle.com/datasets/absin7/zomato-bangalore-data
 Thank You,
 
 Rishiraj Chowdhury ([rishiraj5565@gmail.com](mailto:rishiraj5565@gmail.com))
-
-
