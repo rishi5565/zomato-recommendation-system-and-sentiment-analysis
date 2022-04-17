@@ -7,6 +7,8 @@ import gzip, pickle
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import re
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import time
