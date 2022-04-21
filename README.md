@@ -1,3 +1,4 @@
+
 ## **Project Introduction**
 
 In this project I'll be exploring the Zomato Bengaluru dataset to extract insights and then will be building a restaurant recommendation system with that information. I'll also be building a sentiment analysis model based on the customer reviews that will give an overall sentiment of the customers to the end user. Finally, I'll be packing everything into a web-app using Streamlit and host everything to cloud for anyone to use.
@@ -29,12 +30,14 @@ In this project I'll be exploring the Zomato Bengaluru dataset to extract insigh
 
 
 ## **Exploratory Data Analysis (EDA)**
-* **Top 20 Restaurant chains in Bengaluru:**![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/1.png)
+* **Top 20 Restaurant chains in Bengaluru:**
+![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/1.png)
 
 * **Availability of Online Order:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/2.png)
 
-* **Availability of Table Booking:**![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/3.png)
+* **Availability of Table Booking:**
+![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/3.png)
 
 * **Restaurant ratings distribution:**
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/4.png)
@@ -64,6 +67,7 @@ We see that North Indian is the most popular cuisine. This makes some sense as m
 We see that South of Bengaluru has a high density of Restaurants. A higher density can also be seen at the Central area of the city.
 
 * **Word Cloud of dishes liked by customers for top 9 restaurant types:**
+
 ![enter image description here](https://github.com/rishi5565/zomato-recommendation-system-and-sentiment-analysis/raw/main/EDA%20Images/12.png)
 
 * **Word Cloud of customer reviews for top 9 restaurant chains:**
